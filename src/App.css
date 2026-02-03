@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+select {
+  padding: 8px;
+  margin: 20px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.tag {
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.electronics {
+  background: #2563eb;
+}
+
+.clothing {
+  background: #93c5fd;
+}
+.product-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
